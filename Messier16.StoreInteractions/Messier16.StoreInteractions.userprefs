@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Messier16.StoreInteractions.Abstractions/Messier16.StoreInteractions.Abstractions.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Messier16.StoreInteractions.Abstractions/IInteractions.cs">
+    <Files>
+      <File FileName="Messier16.StoreInteractions.Abstractions/IInteractions.cs" Line="9" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
