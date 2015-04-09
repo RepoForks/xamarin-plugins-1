@@ -6,31 +6,28 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Phone.Tasks;
 using Windows.System;
+using Xamarin.Forms;
 
 [assembly: Dependency(typeof(Messier16.StoreInteractions.WinPhone.StoreInteractions))]
 namespace Messier16.StoreInteractions.WinPhone
 {
     public class StoreInteractions : IStoreInteractions
     {
-        public bool OpenForPublisher(string publisherName)
+        
+        public void OpenForPublisher(string publisherName)
         {
-            // Docs: https://msdn.microsoft.com/en-us/library/windows/apps/dn770213(v=vs.105).aspx
-            Launcher.LaunchUriAsync(new Uri("zune:search?publisher=Abundantcode"));
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:search?publisher=" + publisherName));
         }
 
-        public bool OpenForApp(string app)
+        public void OpenForApp(string app)
         {
-            MarketplaceDetailTask marketplaceDetailTask = new MarketplaceDetailTask();
-            marketplaceDetailTask.ContentIdentifier = "34a64bd8-3bc5-4438-91c4-1f0c072e8524";
-            marketplaceDetailTask.Show();
-            return true;
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:navigate?appid=" + app));
         }
 
-        public bool OpenForQuery(string query)
+        public void OpenForQuery(string query)
         {
-            var search = new MarketplaceSearchTask();
-            search.SearchTerms = query;
-            return true;
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:search?keyword=" + query + "&contenttype=app"));
         }
+        public static void Init() { }
     }
 }

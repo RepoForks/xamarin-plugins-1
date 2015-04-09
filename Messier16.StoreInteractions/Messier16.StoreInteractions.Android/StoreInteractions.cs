@@ -13,22 +13,19 @@ namespace Messier16.StoreInteractions.Droid
         private const string FromQuery = "market://search?q=";
         private const string FromQueryEnd = "&c=apps";
 
-        public bool OpenForPublisher(string publisherName)
+        public void OpenForPublisher(string publisherName)
         {
             StartIntentForUri(FromPublisherName + publisherName);
-            return true;
         }
 
-        public bool OpenForApp(string appId)
+        public void OpenForApp(string appId)
         {
             StartIntentForUri(FromPackageName + appId);
-            return true;
         }
 
-        public bool OpenForQuery(string query)
+        public void OpenForQuery(string query)
         {
             StartIntentForUri(FromQuery + query + FromQueryEnd);
-            return true;
         }
 
         private void StartIntentForUri(string route)

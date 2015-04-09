@@ -6,6 +6,7 @@ using System.Text;
 using Foundation;
 using UIKit;
 using Messier16.StoreInteractions.Abstractions;
+using Xamarin.Forms;
 
 [assembly: Dependency(typeof(Messier16.StoreInteractions.iOS.StoreInteractions))]
 namespace Messier16.StoreInteractions.iOS
@@ -14,31 +15,32 @@ namespace Messier16.StoreInteractions.iOS
     {
         private const string ForPublisherName = "https://itunes.apple.com/artist/";
         private const string FromAppId = "https://itunes.apple.com/app/";
-        public bool OpenForPublisher(string publisherName)
+        public void OpenForPublisher(string publisherName)
         {
-            // https://itunes.apple.com/artist/id284888248
-            return LaunchForString(ForPublisherName + publisherName);
+            // No exception but, it does nothing
+            // throw new NotImplementedException();
         }
 
-        public bool OpenForApp(string app)
+        public void OpenForApp(string app)
         {
-            return LaunchForString(FromAppId + app);
-        }
-
-        public bool OpenForQuery(string query)
-        {
+            // No exception but, it does nothing
+            // throw new NotImplementedException();
             throw new NotImplementedException();
         }
 
-        private bool LaunchForString(string route)
-        { 
+        public void OpenForQuery(string query)
+        {
+            // No exception but, it does nothing
+            // throw new NotImplementedException();
+        }
+
+        private void LaunchForString(string route)
+        {
             var url = new Foundation.NSUrl(route);
             if (UIApplication.SharedApplication.CanOpenUrl(url))
             {
                 UIApplication.SharedApplication.OpenUrl(url);
-                return true;
-            }
-            return false;
+            }            
         }
 
         public static void Init() { }
