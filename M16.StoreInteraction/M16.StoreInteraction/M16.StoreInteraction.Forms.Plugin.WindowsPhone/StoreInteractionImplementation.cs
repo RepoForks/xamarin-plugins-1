@@ -2,6 +2,7 @@
 using System;
 using Xamarin.Forms;
 using M16.StoreInteraction.Forms.Plugin.WindowsPhone;
+using Windows.System;
 
 [assembly: Dependency(typeof(StoreInteractionImplementation))]
 namespace M16.StoreInteraction.Forms.Plugin.WindowsPhone
@@ -18,17 +19,18 @@ namespace M16.StoreInteraction.Forms.Plugin.WindowsPhone
 
         public void OpenForPublisher(string publisherName)
         {
-            throw new NotImplementedException();
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:search?publisher=" + publisherName));
         }
 
-        public void OpenForApp(string appId)
+        public void OpenForApp(string app)
         {
-            throw new NotImplementedException();
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:navigate?appid=" + app));
         }
 
         public void OpenForQuery(string query)
         {
-            throw new NotImplementedException();
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:search?keyword=" + query + "&contenttype=app"));
         }
+
     }
 }
