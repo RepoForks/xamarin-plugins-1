@@ -44,7 +44,7 @@ namespace M16.StoreInteraction.Forms.Plugin.WindowsPhone
 		/// <param name="searchTerms">Search terms.</param>
 		public void OpenForSearch(string searchTerms)
         {
-            Launcher.LaunchUriAsync(new Uri("ms-windows-store:search?keyword=" + query + "&contenttype=app"));
+            Launcher.LaunchUriAsync(new Uri("ms-windows-store:search?keyword=" + searchTerms + "&contenttype=app"));
         }
 
     }
