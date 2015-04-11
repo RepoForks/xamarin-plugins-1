@@ -45,8 +45,9 @@ namespace M16.StoreInteraction.Forms.Plugin.iOS
 		/// </summary>
 		/// <param name="searchTerms">Search terms.</param>
 		public void OpenForSearch (string searchTerms)
-		{
-			LaunchForString (FromSearch + searchTerms);
+        {
+            // Do nothing, the following method blows up execution on device
+            //LaunchForString (FromSearch + searchTerms);
 		}
 
 		private bool LaunchForString (string route)
