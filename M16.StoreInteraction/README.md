@@ -8,8 +8,8 @@ This plugin lets you open the default app store for your device within your appl
 
 With this plugin you can:
 
- - Open the store showing an specific application
- - Open the store showing all apps for an specific publisher
+ - Open the store showing a specific application
+ - Open the store showing all apps for a specific publisher
  - Open the store showing search results 
 
 ### Sample usage
