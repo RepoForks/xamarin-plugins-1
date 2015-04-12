@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Messier16.Forms.StoreInteractions</id>
-       <version>0.8.0.0</version>
+       <version>0.9.1.0</version>
        <title>Store interactions Plugin for Xamarin.Forms</title>
        <authors>Antonio Feregrino</authors>
        <dependencies>
