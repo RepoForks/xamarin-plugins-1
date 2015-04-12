@@ -58,10 +58,12 @@ namespace M16.StoreInteraction.Forms.Plugin.iOSUnified
 		/// <param name="route">Route.</param>
 		private bool LaunchForString (string route)
 		{ 
-			var url = new Foundation.NSUrl (route);
-			if (UIApplication.SharedApplication.CanOpenUrl (url)) {
-				UIApplication.SharedApplication.OpenUrl (url);
-				return true;
+			using (var url = new Foundation.NSUrl (route)) {
+
+				if (UIApplication.SharedApplication.CanOpenUrl (url)) {
+					UIApplication.SharedApplication.OpenUrl (url);
+					return true;
+				}
 			}
 			return false;
 		}

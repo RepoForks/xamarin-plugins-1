@@ -52,11 +52,11 @@ namespace M16.StoreInteraction.Forms.Plugin.iOS
 
 		private bool LaunchForString (string route)
 		{ 
-			//var url = new MonoTouch.ObjCRuntime.Libraries.Foundation.NSUrl (route);
-			var url = new NSUrl(route);
-			if (UIApplication.SharedApplication.CanOpenUrl (url)) {
-				UIApplication.SharedApplication.OpenUrl (url);
-				return true;
+			using (var url = new NSUrl (route)) {
+				if (UIApplication.SharedApplication.CanOpenUrl (url)) {
+					UIApplication.SharedApplication.OpenUrl (url);
+					return true;
+				}
 			}
 			return false;
 		}
