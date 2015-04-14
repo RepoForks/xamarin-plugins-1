@@ -39,6 +39,7 @@
     <Compile Include="Args\MediaPickerArgs.cs" />
     <Compile Include="Extensions\MediaExtensions.cs" />
     <Compile Include="Helpers\MediaFileHelpers.cs" />
+    <Compile Include="Helpers\TaskHelpers.cs" />
     <Compile Include="IMediaPicker.cs" />
     <Compile Include="MediaFile.cs" />
     <Compile Include="MediaStorageOptions.cs" />
