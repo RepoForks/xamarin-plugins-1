@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Args\MediaPickerArgs.cs" />
+    <Compile Include="CrossMediaPicker.cs" />
     <Compile Include="Extensions\MediaExtensions.cs" />
     <Compile Include="Helpers\MediaFileHelpers.cs" />
     <Compile Include="Helpers\TaskHelpers.cs" />
