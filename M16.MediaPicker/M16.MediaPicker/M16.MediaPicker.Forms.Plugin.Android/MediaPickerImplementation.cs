@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 using Android.Content;
 using M16.MediaPicker.Forms.Plugin.Droid.Activities;
 using M16.MediaPicker.Forms.Plugin.Abstractions.Args;
+using Android.OS;
+using System.Threading;
+using Android.Provider;
+using Android.Content.PM;
 
 [assembly: Dependency(typeof(MediaPickerImplementation))]
 namespace M16.MediaPicker.Forms.Plugin.Droid
@@ -25,7 +29,7 @@ namespace M16.MediaPicker.Forms.Plugin.Droid
 
         private static Context Context
         {
-            get { return Application.Context; }
+            get { return Xamarin.Forms.Forms.Context; }
         }
 
         /// <summary>
