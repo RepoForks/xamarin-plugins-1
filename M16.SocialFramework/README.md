@@ -2,7 +2,7 @@
 Right now: just because.
 
 ### What can it do?
-This plugin allows you to invoke the device's default share UI to share text and media.
+This plugin allows you to invoke the device's default share UI to share text and media between apps.
 
 ### References
 [Android Developers - Sharing simple data](https://developer.android.com/training/sharing/send.html)  
