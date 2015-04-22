@@ -8,6 +8,7 @@ This plugin allows you to invoke the device's default share UI to share text and
 [Android Developers - Sharing simple data](https://developer.android.com/training/sharing/send.html)  
 [iOS developer library - Share](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/ShareSheet.html)  
 [Another iOS page](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW2)  
+[Share sheet page - iOS](http://www.knowyourmobile.com/mobile-phones/apple-ios-8/22816/how-use-ios-8-extensions)
 [W Dev center - Sharing and receiving data](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh871363.aspx)
 
 more TBA
