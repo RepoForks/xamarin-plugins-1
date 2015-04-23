@@ -109,10 +109,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\M16.DataSharer.Plugin.WindowsPhone81\DataSharerImplementation.cs">
+      <Link>DataSharerImplementation.cs</Link>
+    </Compile>
     <Compile Include="..\M16.DataSharer.Plugin\CrossDataSharer.cs">
       <Link>CrossDataSharer.cs</Link>
     </Compile>
-    <Compile Include="DataSharerImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

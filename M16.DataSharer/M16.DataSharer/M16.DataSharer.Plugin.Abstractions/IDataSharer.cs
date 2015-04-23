@@ -7,5 +7,6 @@ namespace M16.DataSharer.Plugin.Abstractions
     /// </summary>
     public interface IDataSharer
     {
+        void ShareText(string text, string title = null);
     }
 }
