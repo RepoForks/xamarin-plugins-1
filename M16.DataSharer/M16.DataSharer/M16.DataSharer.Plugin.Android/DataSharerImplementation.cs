@@ -14,6 +14,7 @@ namespace M16.DataSharer.Plugin
         {
             var ctx = Android.App.Application.Context;
             Intent sendIntent = new Intent();
+            sendIntent.AddFlags(ActivityFlags.NewTask);
             sendIntent.SetAction(Intent.ActionSend);
             sendIntent.PutExtra(Intent.ExtraText, text);
             sendIntent.SetType("text/plain");

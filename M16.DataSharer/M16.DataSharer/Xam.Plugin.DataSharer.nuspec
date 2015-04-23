@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.1">
 		<id>Xam.Plugin.DataSharer</id>
-		<version>1.1.0.0</version>
+		<version>1.2.0.0</version>
 		<title>Data Sharer Plugin for Xamarin and Windows</title>
 		<authors>Antonio Feregrino</authors>
 		<iconUrl>http://i.imgur.com/Z9SHXoC.png</iconUrl>
