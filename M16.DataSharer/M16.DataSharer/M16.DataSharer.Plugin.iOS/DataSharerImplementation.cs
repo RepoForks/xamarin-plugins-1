@@ -14,7 +14,6 @@ namespace M16.DataSharer.Plugin
         public void ShareText(string text, string title = null)
         {
             var obj = new MonoTouch.Foundation.NSObject[] { new NSString(text) };
-            //UIActivityViewController viewController = new UIActivityViewController(,)
             var viewController = new UIActivityViewController(obj, null);
             UIApplication.SharedApplication.KeyWindow.RootViewController.PresentViewControllerAsync(viewController, true);
         }
