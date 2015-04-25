@@ -5,7 +5,7 @@
 		<version>1.0.0.0</version>
 		<title>Store interactions Plugin for Xamarin.Forms</title>
 		<authors>Antonio Feregrino</authors>
-		<iconUrl>http://i.imgur.com/Z9SHXoC.png</iconUrl>
+		<iconUrl>http://i.imgur.com/lIVZ8Od.png</iconUrl>
 		<projectUrl>http://github.com/messier16/xamarin-plugins/tree/master/M16.StoreInteraction#why</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Open specific pages in the client device store, open pages for an app, a publisher or a search result</description>

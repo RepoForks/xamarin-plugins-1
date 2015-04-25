@@ -5,18 +5,21 @@
 		<version>1.2.0.0</version>
 		<title>Data Sharer Plugin for Xamarin and Windows</title>
 		<authors>Antonio Feregrino</authors>
-		<iconUrl>http://i.imgur.com/Z9SHXoC.png</iconUrl>
-		<projectUrl>http://github.com/messier16/xamarin-plugins/tree/master/M16.StoreInteraction#why</projectUrl>
+		<iconUrl>http://i.imgur.com/lIVZ8Od.png</iconUrl>
+		<projectUrl>https://github.com/messier16/xamarin-plugins/tree/master/M16.DataSharer#why</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Open specific pages in the client device store, open pages for an app, a publisher or a search result</description>
+		<description>
+			Open share UI
+		</description>
 		<tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, android, xamarin.forms, ios, Windows Phone Store, Google Play, App Store</tags>
 		<!--More Metadata-->
 	</metadata>
 	<files>
+	
 		<!--Core PCL-->
-     <file src="M16.DataSharer.Plugin\bin\Release\M16.DataSharer.Plugin.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.dll" />
-     <file src="M16.DataSharer.Plugin\bin\Release\M16.DataSharer.Plugin.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.xml" />
-     <file src="M16.DataSharer.Plugin\bin\Release\M16.DataSharer.Plugin.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.pdb" />
+		<file src="M16.DataSharer.Plugin\bin\Release\M16.DataSharer.Plugin.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.dll" />
+		<file src="M16.DataSharer.Plugin\bin\Release\M16.DataSharer.Plugin.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.xml" />
+		<file src="M16.DataSharer.Plugin\bin\Release\M16.DataSharer.Plugin.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.pdb" />
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.Abstractions.dll" />
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.Abstractions.pdb" />
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\M16.DataSharer.Plugin.Abstractions.xml" />
@@ -29,7 +32,7 @@
 		<file src="M16.DataSharer.Plugin.WindowsPhone8\Bin\Release\M16.DataSharer.Plugin.pdb" target="lib\wp8\M16.DataSharer.Plugin.pdb" />
 		<file src="M16.DataSharer.Plugin.WindowsPhone8\Bin\Release\M16.DataSharer.Plugin.xml" target="lib\wp8\M16.DataSharer.Plugin.xml" />
 
-		
+
 		<!--Win Phone 81-->
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.dll" target="lib\wpa81\M16.DataSharer.Plugin.Abstractions.dll" />
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.pdb" target="lib\wpa81\M16.DataSharer.Plugin.Abstractions.pdb" />
@@ -45,7 +48,7 @@
 		<file src="M16.DataSharer.Plugin.WindowsStore\Bin\Release\M16.DataSharer.Plugin.dll" target="lib\win8\M16.DataSharer.Plugin.dll" />
 		<file src="M16.DataSharer.Plugin.WindowsStore\Bin\Release\M16.DataSharer.Plugin.pdb" target="lib\win8\M16.DataSharer.Plugin.pdb" />
 		<file src="M16.DataSharer.Plugin.WindowsStore\Bin\Release\M16.DataSharer.Plugin.xml" target="lib\win8\M16.DataSharer.Plugin.xml" />
-		
+
 		<!--Xamarin.Android-->
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.dll" target="lib\MonoAndroid10\M16.DataSharer.Plugin.Abstractions.dll" />
 		<file src="M16.DataSharer.Plugin.Abstractions\bin\Release\M16.DataSharer.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\M16.DataSharer.Plugin.Abstractions.pdb" />
