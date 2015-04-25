@@ -1,6 +1,3 @@
-## This is old and will be deleted soon
-This plugin has been replaced for the Xamarin.Forms free plugin which can be found [here](..\M16.StoreInteractions)
-
 ## Why?
 My very first plugin made just to practice. I got inspired by another plugin that allowed you to rate an app after certain actions. 
 
