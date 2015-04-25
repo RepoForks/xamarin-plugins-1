@@ -15,9 +15,9 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="C:\Users\Antonio\Documents\GitHub\xamarin-plugins\M16.StoreInteractions\icon.png"
-   inkscape:export-xdpi="8.6400003"
-   inkscape:export-ydpi="8.6400003"
+   inkscape:export-filename="C:\Users\Antonio\Documents\GitHub\xamarin-plugins\M16.DataSharer\icon.png"
+   inkscape:export-xdpi="5.7600002"
+   inkscape:export-ydpi="5.7600002"
    sodipodi:docname="icon.svg">
   <defs
      id="defs4" />
@@ -29,10 +29,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="64.324995"
+     inkscape:cx="-57.334119"
      inkscape:cy="223.98362"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer6"
      showgrid="false"
      units="px"
      borderlayer="true"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,15 +57,14 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Green"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="opacity:0.98999999;fill:#77d065;fill-opacity:1;stroke:none;stroke-width:1.95986569;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4687"
-       width="568.34845"
-       height="568.34845"
-       x="-0.76724505"
-       y="-515.06763"
+       width="605.02325"
+       height="605.02325"
+       x="-18.27067"
+       y="-504.1033"
        transform="matrix(0.07858356,0.99690753,-0.99690753,0.07858356,0,0)" />
   </g>
   <g
@@ -73,53 +72,64 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-552.36223)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="opacity:0.98999999;fill:#3498db;fill-opacity:1;stroke:none;stroke-width:1.00825417;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4684"
-       width="511.51358"
-       height="511.51358"
-       x="401.23511"
-       y="-806.73853"
+       width="544.52094"
+       height="544.52094"
+       x="401.93854"
+       y="-796.44891"
        transform="matrix(-0.43039841,0.90263903,-0.90263903,-0.43039841,0,0)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Purple"
-     sodipodi:insensitive="true">
+     inkscape:label="Purple">
     <rect
        style="opacity:0.98999999;fill:#b455b6;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4690"
-       width="454.67874"
-       height="454.67874"
-       x="112.74203"
-       y="-207.9577"
+       width="484.01859"
+       height="484.01859"
+       x="82.80101"
+       y="-191.82452"
        transform="matrix(0.56650912,0.82405547,-0.82405547,0.56650912,0,0)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Strong blue"
-     sodipodi:insensitive="true">
+     inkscape:label="Strong blue">
     <rect
        style="opacity:0.98999999;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4693"
-       width="397.8439"
-       height="397.8439"
-       x="104.4609"
-       y="-57.377045"
+       width="423.51627"
+       height="423.51627"
+       x="67.605019"
+       y="-42.166382"
        transform="matrix(0.76048704,0.64935311,-0.64935311,0.76048704,0,0)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="Icon">
+     inkscape:label="Icon shopping cart"
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        d="m 179.99998,354.99992 c -19.3375,0 -34.825,15.6625 -34.825,34.99999 0,19.3375 15.4875,35 34.825,35 19.3375,0 34.99999,-15.6625 34.99999,-35 0,-19.33749 -15.66249,-34.99999 -34.99999,-34.99999 z M 74.99999,75.000035 l 0,34.999905 35,0 62.91249,132.73749 -23.625,42.875 c -2.7125,5.075 -4.2875,10.7625 -4.2875,16.88749 0,19.3375 15.6625,35 35,35 l 209.99997,0 0,-35 -202.56247,0 c -2.45,0 -4.375,-1.925 -4.375,-4.37499 0,-0.7875 0.175,-1.4875 0.525,-2.1 l 15.6625,-28.52501 130.37498,0 c 13.125,0 24.5875,-7.26249 30.625,-18.02499 l 62.56249,-113.57499 c 1.4,-2.45 2.1875,-5.3375 2.1875,-8.4 0,-9.7125 -7.875,-17.5 -17.5,-17.5 l -258.73747,0 -16.625,-34.999905 -57.13749,0 z M 354.99996,354.99992 c -19.3375,0 -34.825,15.6625 -34.825,34.99999 0,19.3375 15.4875,35 34.825,35 19.33749,0 34.99999,-15.6625 34.99999,-35 0,-19.33749 -15.6625,-34.99999 -34.99999,-34.99999 z"
        id="path4"
+       style="fill:#ecf0f1;fill-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Icon sharing"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 355.42163,322.56529 c -13.35334,0 -25.38897,5.18323 -34.52553,13.52911 L 195.70784,263.08988 c 0.96637,-3.95333 1.58132,-8.08234 1.58132,-12.29921 0,-4.21686 -0.61495,-8.34588 -1.58132,-12.29919 l 123.8705,-72.30172 c 9.4001,8.78514 21.96284,14.23193 35.84329,14.23193 29.07882,0 52.71085,-23.63203 52.71085,-52.71085 0,-29.078825 -23.63203,-52.710849 -52.71085,-52.710849 -29.07874,0 -52.71077,23.632024 -52.71077,52.710849 0,4.21687 0.61496,8.34588 1.58133,12.29921 l -123.8705,72.30171 c -9.4001,-8.78515 -21.96286,-14.23193 -35.84338,-14.23193 -29.07882,0 -52.710848,23.63203 -52.710848,52.71084 0,29.07882 23.632028,52.71085 52.710848,52.71085 13.88052,0 26.44328,-5.44678 35.84338,-14.23193 l 125.18827,73.00453 c -0.87852,3.68976 -1.40563,7.55523 -1.40563,11.50854 0,28.28815 22.92922,51.21729 51.2173,51.21729 28.28815,0 51.21737,-22.92914 51.21737,-51.21729 0,-28.28816 -22.92922,-51.21737 -51.21737,-51.21737 z"
+       id="path6"
        style="fill:#ecf0f1;fill-opacity:1" />
   </g>
 </svg>

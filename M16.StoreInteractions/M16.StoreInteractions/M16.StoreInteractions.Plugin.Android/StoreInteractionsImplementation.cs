@@ -1,3 +1,4 @@
+using Android.Content;
 using M16.StoreInteractions.Plugin.Abstractions;
 using System;
 
@@ -52,11 +53,11 @@ namespace M16.StoreInteractions.Plugin
         /// <param name="route">Route.</param>
         private void StartIntentForUri(string route)
         {
-            //Intent intent = new Intent(Intent.ActionView);
-            //intent.SetData(Android.Net.Uri.Parse(route));
-            //intent.SetFlags(ActivityFlags.NewTask);
-            //Xamarin.Forms.Forms.Context.StartActivity(intent);
-
+            var ctx = Android.App.Application.Context;
+            Intent intent = new Intent(Intent.ActionView);
+            intent.SetData(Android.Net.Uri.Parse(route));
+            intent.SetFlags(ActivityFlags.NewTask);
+            ctx.StartActivity(intent);
         }
     }
 }

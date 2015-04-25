@@ -44,7 +44,7 @@ namespace M16.StoreInteractions.Plugin
         /// <param name="searchTerms">Search terms.</param>
         public void OpenForSearch(string searchTerms)
         {
-            // Do nothing, the following method blows up execution on device
+            searchTerms = searchTerms.Replace(' ', '+');
             LaunchForString(FromSearch + searchTerms);
         }
 
