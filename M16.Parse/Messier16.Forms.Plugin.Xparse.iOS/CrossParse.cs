@@ -1,11 +1,11 @@
 ﻿
 using MonoTouch.UIKit;
 
-namespace Messier16.Forms.Plugin.Parse
+namespace Messier16.Forms.Plugin.Xparse
 {
-  public class Messages
+  public class CrossParse
   {
-    public Messages()
+    public CrossParse()
     {
 
     }

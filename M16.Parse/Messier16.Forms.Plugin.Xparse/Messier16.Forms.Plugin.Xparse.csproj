@@ -8,8 +8,8 @@
     <ProjectGuid>{A6C428F6-B7E7-40CA-84F4-797BBB873246}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Messier16.Forms.Plugin.Parse</RootNamespace>
-    <AssemblyName>Messier16.Forms.Plugin.Parse</AssemblyName>
+    <RootNamespace>Messier16.Forms.Plugin.Xparse</RootNamespace>
+    <AssemblyName>Messier16.Forms.Plugin.Xparse</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -31,13 +31,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Messier16.Forms.Plugin.Parse.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Messier16.Forms.Plugin.Xparse.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Messages.cs" />
+    <Compile Include="CrossParse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

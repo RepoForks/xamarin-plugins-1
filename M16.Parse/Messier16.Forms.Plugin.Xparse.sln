@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Parse.Droid", "Messier16.Forms.Plugin.Parse.Droid\Messier16.Forms.Plugin.Parse.Droid.csproj", "{1C0DC231-0E7D-4392-8D85-ADE96CE3C70D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Xparse.Droid", "Messier16.Forms.Plugin.Xparse.Droid\Messier16.Forms.Plugin.Xparse.Droid.csproj", "{1C0DC231-0E7D-4392-8D85-ADE96CE3C70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Parse", "Messier16.Forms.Plugin.Parse\Messier16.Forms.Plugin.Parse.csproj", "{A6C428F6-B7E7-40CA-84F4-797BBB873246}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Xparse", "Messier16.Forms.Plugin.Xparse\Messier16.Forms.Plugin.Xparse.csproj", "{A6C428F6-B7E7-40CA-84F4-797BBB873246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Parse.iOS", "Messier16.Forms.Plugin.Parse.iOS\Messier16.Forms.Plugin.Parse.iOS.csproj", "{D1A5411F-42D5-4F91-AED7-E4F3DA344A26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Xparse.iOS", "Messier16.Forms.Plugin.Xparse.iOS\Messier16.Forms.Plugin.Xparse.iOS.csproj", "{D1A5411F-42D5-4F91-AED7-E4F3DA344A26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Parse.WinPhone", "Messier16.Forms.Plugin.Parse.WinPhone\Messier16.Forms.Plugin.Parse.WinPhone.csproj", "{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messier16.Forms.Plugin.Xparse.WinPhone", "Messier16.Forms.Plugin.Xparse.WinPhone\Messier16.Forms.Plugin.Xparse.WinPhone.csproj", "{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,8 +247,8 @@ Global
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|x64.Build.0 = Debug|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Debug|x86.ActiveCfg = Debug|x86
@@ -261,12 +261,12 @@ Global
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|iPhone.Build.0 = Release|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|Mixed Platforms.Build.0 = Release|x86
+		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|x64.ActiveCfg = Release|Any CPU
 		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|x64.Build.0 = Release|Any CPU
-		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|x86.ActiveCfg = Release|x86
-		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|x86.Build.0 = Release|x86
+		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{794AF38B-1D6D-47D0-A817-60CB7B6A73F7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

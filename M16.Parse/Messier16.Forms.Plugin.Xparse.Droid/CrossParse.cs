@@ -2,11 +2,11 @@
 using Android.App;
 using Android.Widget;
 
-namespace Messier16.Forms.Plugin.Parse
+namespace Messier16.Forms.Plugin.Xparse
 {
-  public class Messages
+  public class CrossParse
   {
-    public Messages()
+    public CrossParse()
     {
 
     }

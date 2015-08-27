@@ -8,9 +8,9 @@
     <ProjectGuid>{D1A5411F-42D5-4F91-AED7-E4F3DA344A26}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Messier16.Forms.Plugin.Parse</RootNamespace>
+    <RootNamespace>Messier16.Forms.Plugin.Xparse</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Messier16.Forms.Plugin.Parse</AssemblyName>
+    <AssemblyName>Messier16.Forms.Plugin.Xparse</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,15 +32,20 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <DocumentationFile>bin\Release\Messier16.Forms.Plugin.Parse.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Messier16.Forms.Plugin.Xparse.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Messages.cs" />
+    <Compile Include="CrossParse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Parse.iOS, Version=1.5.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Parse.1.5.5\lib\MonoTouch10\Parse.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
