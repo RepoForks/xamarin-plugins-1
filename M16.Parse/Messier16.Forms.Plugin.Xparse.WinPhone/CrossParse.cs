@@ -1,40 +1,69 @@
 ﻿
 using Parse;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Windows;
 
 namespace Messier16.Forms.Plugin.Xparse
 {
-    public class CrossParse
+    public static class CrossParse
     {
-        public CrossParse()
-        {
-            ParsePush.ParsePushNotificationReceived += ParsePush_ParsePushNotificationReceived;
-        }
 
-        void ParsePush_ParsePushNotificationReceived(object sender, ParsePushNotificationEventArgs e)
+        static void ParsePush_ParsePushNotificationReceived(object sender, ParsePushNotificationEventArgs e)
         {
             if (OnPushReceived != null)
-                OnPushReceived(e.Payload);
+                OnPushReceived(sender, new CrossParsePushNotificationEventArgs(e.Payload));
         }
 
-        public event PushReceived OnPushReceived;
+        public static event PushReceived OnPushReceived;
 
-        public delegate void PushReceived(IDictionary<string,object> pushInfo);
+        public delegate void PushReceived(object sender, CrossParsePushNotificationEventArgs e);
 
-        public async void SuscribeAsync(string channel = "")
+        /// <summary>
+        /// Suscribe to a channel
+        /// </summary>
+        /// <param name="channel"></param>
+        /// <returns></returns>
+        public static async Task SuscribeAsync(string channel = "")
         {
             await ParsePush.SubscribeAsync(channel);
         }
 
-        public void InitializeClient(string applicationId, string key)
+        public static void AddParsePushNotificationReceivedListener()
+        {
+
+            ParsePush.ParsePushNotificationReceived += ParsePush_ParsePushNotificationReceived;
+        }
+
+        public static void RemoveParsePushNotificationReceivedListener()
+        {
+            ParsePush.ParsePushNotificationReceived -= ParsePush_ParsePushNotificationReceived;
+        }
+
+        /// <summary>
+        /// Initializes the ParseClient
+        /// </summary>
+        /// <param name="applicationId"></param>
+        /// <param name="key"></param>
+        public static void InitializeClient(string applicationId, string key)
         {
             ParseClient.Initialize(applicationId, key);
         }
 
-        public void ShowMessage(string text)
+    }
+
+    public class CrossParsePushNotificationEventArgs : EventArgs
+    {
+        public CrossParsePushNotificationEventArgs(IDictionary<string, object> payload)
         {
-            MessageBox.Show(string.Empty, text, MessageBoxButton.OK);
+            Payload = payload;
+        }
+
+        public IDictionary<string, object> Payload
+        {
+            get;
+            private set;
         }
     }
 }
