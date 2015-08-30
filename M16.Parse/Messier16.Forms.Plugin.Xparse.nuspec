@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.1">
 		<id>Xam.Plugin.Parse</id>
-		<version>0.0.1.7</version>
+		<version>0.0.2.1</version>
 		<title>Parse Plugin for Xamarin and Windows</title>
 		<authors>Antonio Feregrino</authors>
 		<iconUrl>http://i.imgur.com/HRNBgbt.png</iconUrl>
@@ -17,6 +17,12 @@
 			<group targetFramework="wp8">
 				<dependency id="Parse"  version="1.5.5" />
 			</group>
+			<group targetFramework="MonoAndroid10">
+				<dependency id="Parse"  version="1.5.5" />
+			</group>
+			<group targetFramework="MonoTouch10">
+				<dependency id="Parse"  version="1.5.5" />
+			</group>
 		</dependencies>
 	</metadata>
 	<files>
@@ -28,6 +34,16 @@
 		<!-- Windows Phone -->
 		<file src="Messier16.Forms.Plugin.Xparse.WinPhone\Bin\Release\Messier16.Forms.Plugin.Xparse.dll" target="lib\wp8\Messier16.Forms.Plugin.Xparse.dll" />
 		<file src="Messier16.Forms.Plugin.Xparse.WinPhone\Bin\Release\Messier16.Forms.Plugin.Xparse.pdb" target="lib\wp8\Messier16.Forms.Plugin.Xparse.pdb" />
+		
+		<!-- Android -->
+		<file src="Messier16.Forms.Plugin.Xparse.Droid\Bin\Release\Messier16.Forms.Plugin.Xparse.dll" target="lib\MonoAndroid10\Messier16.Forms.Plugin.Xparse.dll" />
+		<file src="Messier16.Forms.Plugin.Xparse.Droid\Bin\Release\Messier16.Forms.Plugin.Xparse.pdb" target="lib\MonoAndroid10\Messier16.Forms.Plugin.Xparse.pdb" />
+		
+		<!-- Ios -->
+		<file src="Messier16.Forms.Plugin.Xparse.iOS\Bin\Release\Messier16.Forms.Plugin.Xparse.dll" target="lib\MonoTouch10\Messier16.Forms.Plugin.Xparse.dll" />
+		<!-- No pdb for ios binaries
+		<file src="Messier16.Forms.Plugin.Xparse.iOS\Bin\Release\Messier16.Forms.Plugin.Xparse.pdb" target="lib\MonoTouch10\Messier16.Forms.Plugin.Xparse.pdb" />
+		-->
 
 	</files>
 </package>
