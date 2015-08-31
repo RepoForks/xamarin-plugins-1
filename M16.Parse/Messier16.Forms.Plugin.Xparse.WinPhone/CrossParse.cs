@@ -21,18 +21,47 @@ namespace Messier16.Forms.Plugin.Xparse
         public delegate void PushReceived(object sender, CrossParsePushNotificationEventArgs e);
 
         /// <summary>
-        /// Suscribe to a channel
+        /// Subscribe to a channel
         /// </summary>
         /// <param name="channel"></param>
         /// <returns></returns>
-        public static async Task SuscribeAsync(string channel = "")
+        public static async Task SubscribeAsync(string channel = "")
         {
             await ParsePush.SubscribeAsync(channel);
         }
 
+        /// <summary>
+        /// Subscribe to the given channels
+        /// </summary>
+        /// <param name="channel"></param>
+        /// <returns></returns>
+        public static async Task SubscribeAsync(IEnumerable<string> channels)
+        {
+            await ParsePush.SubscribeAsync(channels);
+        }
+
+        /// <summary>
+        /// Unsubscribe to a channel
+        /// </summary>
+        /// <param name="channel"></param>
+        /// <returns></returns>
+        public static async Task UnsubscribeAsync(string channel = "")
+        {
+            await ParsePush.UnsubscribeAsync(channel);
+        }
+
+        /// <summary>
+        /// Unsubscribe to the given channels
+        /// </summary>
+        /// <param name="channel"></param>
+        /// <returns></returns>
+        public static async Task UnsubscribeAsync(IEnumerable<string> channels)
+        {
+            await ParsePush.UnsubscribeAsync(channels);
+        }
+
         public static void AddParsePushNotificationReceivedListener()
         {
-
             ParsePush.ParsePushNotificationReceived += ParsePush_ParsePushNotificationReceived;
         }
 

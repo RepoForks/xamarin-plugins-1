@@ -21,6 +21,16 @@ namespace Messier16.Forms.Plugin.Xparse
         }
 
         /// <summary>
+        /// Suscribe to the given channels
+        /// </summary>
+        /// <param name="channel"></param>
+        /// <returns></returns>
+        public static async Task SuscribeAsync(IEnumerable<string> channels)
+        {
+            NotImplementedInReferenceAssembly();
+        }
+
+        /// <summary>
         /// Initializes the ParseClient
         /// </summary>
         /// <param name="applicationId"></param>

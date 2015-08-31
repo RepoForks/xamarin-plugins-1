@@ -2,15 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.1">
 		<id>Xam.Plugin.Parse</id>
-		<version>0.0.2.1</version>
-		<title>Parse Plugin for Xamarin and Windows</title>
+		<version>0.1.0.1</version>
+		<title>Parse Plugin for Xamarin Forms</title>
 		<authors>Antonio Feregrino</authors>
-		<iconUrl>http://i.imgur.com/HRNBgbt.png</iconUrl>
+		<iconUrl>http://i.imgur.com/1T4ghK6.png</iconUrl>
 		<projectUrl>http://github.com/messier16/xamarin-plugins/tree/master/M16.Parse#why</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>
-			Open specific pages in the client device store, open pages for an app, a publisher or a search result
-		</description>
+		<description>A simple Parse.com plugin for Xamarin.Forms, this allows to perform simple operations such as subscribing or unsubscribing to channels. It uses the Parse component for all three platfoms so this is just an extra layer of abstraction.</description>
 		<tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, android, xamarin.forms, ios, Windows Phone Store, Google Play, App Store</tags>
 		<!--More Metadata-->
 		<dependencies> 
